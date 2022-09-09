@@ -1,0 +1,174 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: sans-serif;
+    border: none;
+    border-collapse: collapse;
+}
+img{
+    height: 25px;
+    width: 25px;
+}
+.kadena-pic{
+    height: 20px;
+    width: 20px;
+}
+td{
+    text-align: left;
+    padding-right: 15px;
+    border:none;
+}
+tr{
+    height: 47px;
+    border: none;
+}
+tr:hover{
+    background: rgba(255, 250, 240, 0.2);
+}
+.table-head:hover{
+    background: black;
+}
+.row-1{
+    text-align: right;
+    padding-left: 12px;
+}
+.row-2{
+    text-align: left;
+    padding-right: 60px;
+}
+.row-3{
+    text-align: right;
+    padding-right: 50px;
+}
+.row-4{
+    text-align: right;
+    padding-right: 50px;
+    color: #5d646c;
+}
+.row-5{
+    text-align: right;
+    padding-right: 50px;
+}
+.row-6{
+    text-align: right;
+    padding-right: 50px;
+}
+.row-7{
+    text-align: right;
+    padding-right: 50px;
+}
+.row-8{
+    text-align: right;
+    padding-right: 20px;
+}
+.img-container{
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bitcoin{
+    background: rgba(223,172,95,0.3);
+}
+.kadena{
+    background: rgba(179,33,120,0.3);
+}
+.b2m{
+    background: rgba(69,144,221,0.3);
+}
+.tether{
+    background: rgba(153,223,204,0.3);
+}
+.ethereum{
+    background:rgba(153,223,204,0.3) ;
+}
+.jasmy{
+    background:  rgba(223,172,95,0.3);
+}
+.crypto{
+    background: rgba(63,80,111, 0.3);
+}
+.xels{
+    background: rgba(107,186,89,0.3);
+}
+.xels-img{
+    height: 23px;
+    width: 23px;
+}
+.jasmy-img,
+.tether-img,
+.b2m-img,
+.kadena-pic,
+.ethereum-img,
+.crypto-img,
+.xels-img{
+    border-radius: 25px;
+}
+button{
+    background: rgba(255, 250, 240, 0.2);
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    font-size: 9px;
+    border-radius: 3px;
+    width: 150px;
+}
+i{
+    padding-left: 5px;
+}
+th{
+    color: #5d646c;
+}
+
+th:nth-child(8){
+    color: white;
+    padding-left: 12px;
+    text-align: right;
+}
+.subtitle{
+    color: #5d646c;
+    font-size: 11px;
+}
+.arrow-up{
+    color:#15583a;
+    font-weight: bold;
+}
+.zeroes{
+    color: #808388;
+    font-weight: bold;
+}
+.sign{
+    background: rgba(255, 250, 240, 0.2);
+    color: white;
+    padding: 3px 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.arrow-down{
+    color: #6e3833;
+}
+.fa-btc{
+    padding-right: 3px;
+    font-size: 12px;
+}
+.usdt-img{
+    background-color: white;
+    border-radius: 50px;
+    height:15px;
+    width:15px;
+}

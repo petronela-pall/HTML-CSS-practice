@@ -1,0 +1,104 @@
+body{
+    /*margin:0;*/
+}
+.container{
+    background-color: #f3e0e2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.form{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 5px 5px 5px #afa1a2;
+    border-radius: 10px;
+    z-index: 1;
+}
+.left-side{
+    width:50%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 40px;
+}
+.wrapper-left,
+.wrapper-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+.right-side{
+    width: 50%;
+    background-color: #ff435d;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+button{
+    border-color:#ff4b2b;
+    border-width: 1px;
+    background-color: #ff4b2b;
+    padding: 12px 40px;
+    margin-bottom: 35px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+}
+.span-1{
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+.social-media-icons{
+    padding-bottom: 35px;
+}
+.fa-facebook-f,
+.fa-twitter{
+    border: 1px solid #d6dcdc;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.fa-facebook-f{
+    padding: 10px 14px 10px 14px;
+}
+.fa-twitter{
+    padding: 10px 11px 10px 11px;
+}
+.use-your-acc{
+    font-size: 15px;
+    color: #303738;
+    padding-bottom: 10px;
+    opacity: 0.85;
+}
+input{
+    background-color: #eeeeee;
+    border: none;
+    padding: 0px 12px;
+    margin-bottom: 15px;
+    width: 100%;
+    line-height: 30px;
+}
+.forgot-pass{
+    font-size: 15px;
+    color: #303738;
+    padding-bottom: 14px;
+    opacity: 0.85;
+}
+.title-right{
+    font-size: 26px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+p{
+    font-size: 13px;
+}

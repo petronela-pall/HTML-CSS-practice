@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-color: white;
+    }
+.container{
+    width:80%;
+    margin:0 auto;
+}
+header{
+    background-color: #1bb18c;
+    color: #99ffdd;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo{
+    float: left;
+}
+nav {
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+#mid-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#alive {
+    background-color: #428BC9;
+    width: auto;
+    padding: 15px 15px 15px 15px;
+    color: #E8E8E8;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#our-team{
+    background-color: #1bb18c;
+    color: #ccffee;
+}
+#about{
+    padding-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+}
+#text{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.low-page{
+    font-family: sans-serif;
+    text-align: center;
+    opacity: 0.7;
+    padding-bottom: 20px;
+    font-weight: 548;
+}
+#p1{
+    padding-top: 20px;
+    font-size: 18px;
+}
+#p2{
+    font-size: 13px;
+}
+#card-container{
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+card {
+    flex-direction: column;
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 15px 30px 5px 30px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+}
+#card-1{
+    background-color:  #ffcccc;
+    color:  #800000;
+    opacity: 0.6;
+}
+#card-2{
+    background-color: #e6ffe6;
+    color:#008000;
+    opacity: 0.6;
+}
+#card-3{
+    background-color: #fff5cc;
+    color: #806600;
+    opacity: 0.6;
+}
+#card-4{
+    background-color:  #b3e6ff;
+    color:  #004466;
+    opacity: 0.6;
+}
